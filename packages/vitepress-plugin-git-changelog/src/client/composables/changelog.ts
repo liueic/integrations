@@ -68,7 +68,7 @@ export function useChangelog() {
           ...a,
           ...gitChangelog.value.authors.find(item => item.name === a.name) ?? {
             // a avatarUrl fallback for authors in frontmatter
-            avatarUrl: `https://gravatar.com/avatar/${a.name}?d=retro`,
+            avatarUrl: `https://gravatar.loli.net/avatar/${a.name}?d=retro`,
           },
         }
       })

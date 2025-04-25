@@ -496,5 +496,5 @@ export async function newAvatarForAuthor(mappedAuthor: Contributor | undefined, 
       return `https://github.com/${mappedAuthor.username}.png`
   }
 
-  return `https://gravatar.com/avatar/${await digestStringAsSHA256(email)}?d=retro`
+  return `https://gravatar.loli.net/avatar/${await digestStringAsSHA256(email)}?d=retro`
 }

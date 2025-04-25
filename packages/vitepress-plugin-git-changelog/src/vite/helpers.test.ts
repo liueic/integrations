@@ -223,7 +223,7 @@ describe('parseCommitAuthors', () => {
       {
         name: 'First Last',
         email: 'user@example.com',
-        avatarUrl: 'https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
+        avatarUrl: 'https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
       },
     ])
   })
@@ -244,12 +244,12 @@ describe('parseCommitAuthors', () => {
       {
         name: 'First Last',
         email: 'user@example.com',
-        avatarUrl: 'https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
+        avatarUrl: 'https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
       },
       {
         name: 'First Last2',
         email: 'user2@example.com',
-        avatarUrl: 'https://gravatar.com/avatar/2b3b2b9ce842ab8b6a6c614cb1f9604bb8a0d502d1af49c526b72b10894e95b5?d=retro',
+        avatarUrl: 'https://gravatar.loli.net/avatar/2b3b2b9ce842ab8b6a6c614cb1f9604bb8a0d502d1af49c526b72b10894e95b5?d=retro',
       },
     ])
   })
@@ -288,7 +288,7 @@ describe('parseCommitAuthors', () => {
       {
         name: 'John Doe',
         email: 'user@example.com',
-        avatarUrl: 'https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
+        avatarUrl: 'https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
       },
     ])
   })
@@ -312,7 +312,7 @@ describe('parseCommitAuthors', () => {
       {
         name: 'John Doe',
         email: 'user@example.com',
-        avatarUrl: 'https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
+        avatarUrl: 'https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
       },
     ])
   })
@@ -589,7 +589,7 @@ describe('newAvatarForAuthor', () => {
   it('should return the commit author avatar with email', async () => {
     const avatar = await newAvatarForAuthor(undefined, 'user@example.com')
 
-    expect(avatar).toEqual('https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro')
+    expect(avatar).toEqual('https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro')
   })
 })
 
@@ -649,7 +649,7 @@ describe('parseCommits', () => {
       ],
       authors: [
         {
-          avatarUrl: 'https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
+          avatarUrl: 'https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
           name: 'First Last',
         },
       ],
@@ -696,7 +696,7 @@ describe('parseCommits', () => {
       ],
       authors: [
         {
-          avatarUrl: 'https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
+          avatarUrl: 'https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
           name: 'First Last',
         },
       ],
@@ -738,11 +738,11 @@ describe('parseCommits', () => {
       ],
       authors: [
         {
-          avatarUrl: 'https://gravatar.com/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
+          avatarUrl: 'https://gravatar.loli.net/avatar/b4c9a289323b21a01c3e940f150eb9b8c542587f1abfd8f0e1cc1ffc5e475514?d=retro',
           name: 'First Last',
         },
         {
-          avatarUrl: 'https://gravatar.com/avatar/2b3b2b9ce842ab8b6a6c614cb1f9604bb8a0d502d1af49c526b72b10894e95b5?d=retro',
+          avatarUrl: 'https://gravatar.loli.net/avatar/2b3b2b9ce842ab8b6a6c614cb1f9604bb8a0d502d1af49c526b72b10894e95b5?d=retro',
           name: 'First Last2',
         },
       ],
